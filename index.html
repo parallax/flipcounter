@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en" class="no-js">
+	<head>
+		<meta charset="utf-8"/>
+		<title>CSS Flip-Counter Revisited</title>
+		<meta name="description" content="An experiment in CSS animation for my flip counter script."/>
+		<meta name="keywords" content="HTML,CSS,JavaScript,counter,apple-style,flip,animate,digit,demo"/>
+		<meta name="author" content="Chris Nanney"/>
+
+		<script type="text/javascript" src="js/flipcounter.js"></script>
+		<link rel="stylesheet" type="text/css" href="css/flipcounter.css"/>
+	</head>
+	<body>
+		<h1>CSS FLIP-COUNTER</h1>
+		<div class="clearfix">
+			<div class="counter-wrapper">
+				<ul class="flip-counter default small" id="myCounter"></ul>
+			</div>
+		</div>
+		<script>
+			var myCounter = new FlipCounter('myCounter', {
+				value: 1000,
+				inc: 123,
+				pace: 1000,
+				auto: true
+			});
+		</script>
+	</body>
+</html>
