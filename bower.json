@@ -1,0 +1,10 @@
+{
+  "name": "flipcounter",
+  "version": "1.0.0",
+  "main": "dist/flipcounter.js",
+  "dependencies": {},
+  "ignore": [
+    "css",
+    "index.html"
+  ]
+}
