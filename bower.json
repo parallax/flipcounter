@@ -1,0 +1,17 @@
+{
+  "name": "flipcounter",
+  "version": "1.0.0",
+  "main": [
+    "dist/flipcounter.js"
+  ],
+  "homepage": "https://github.com/parallax/flipcounter",
+  "_release": "1.0.0",
+  "_resolution": {
+    "type": "version",
+    "tag": "v1.0.0",
+    "commit": "12bf2cf914c25aee3f6bb1cd868d4002a66f3e1d"
+  },
+  "_source": "git@github.com:parallax/flipcounter.git",
+  "_target": "v1.0.0",
+  "_originalSource": "flipcounter"
+}
