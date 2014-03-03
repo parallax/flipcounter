@@ -4,7 +4,6 @@
   "main": "dist/flipcounter.js",
   "dependencies": {},
   "ignore": [
-    "css",
     "index.html"
   ]
 }
